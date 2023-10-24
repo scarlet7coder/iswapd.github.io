@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+}
+nav{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    border: 4px;
+    padding: 1px;
+    background-color: #fffeff;
+    box-shadow:inherit;
+    top: 0;
+    right: -11px;
+    width:100%;
+    overflow: hidden;
+}
+.Home{
+    padding: 98px;
+    height: 57vh;
+    background-image: url("");
+}
+.home{
+    margin: 40px;
+    padding: 39px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    color: rgb(250, 247, 247);
+    padding: 15px 15px;
+    margin: 18px;
+    font-size: 13px;
+    top: 0  ;
+    cursor: pointer;
+    float: left;
+    
+}
+.Skill{
+    margin: 40px;
+    padding: 80px;
+}
+
+.col-md-7{
+    display: flex;
+    align-items: center;
+    font-size: 49px;
+    justify-content: center;
+}
+.imgbox{
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+.imgbox img{
+    top: -20px;
+    right: 0;
+    animation: animateUser 4s linear infinite;
+
+}
+.b1tn{
+    border: none;
+    font-size:xx-large;
+    border: none;
+    margin: 20px;
+    padding: 0px;
+    background-color: transparent;
+
+}
+.b2tn{
+    display: flex;
+    justify-content: center;
+}
+.something{
+    padding: 42px
+}
+.row3{
+    margin: 40px;
+    padding: 80px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    height: 300%;
+    background-color: rgb(172, 115, 225);
+    width: 20%;
+    padding: 100px 30px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.project{
+    display: flex;
+    align-items: center;
+    margin: 73px;
+    justify-content: space-around;
+}
+.bttn {
+    background-color:rgba(118, 78, 249, 0.55);
+    border: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: all 0.3s ease-out 0s;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    background-color: #754ef9;
+    text-transform: uppercase;
+  }
+.col-md8{
+    display: flex;
+    align-items: center;
+    font-size: 49px;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.single-form{
+    height: 97px;
+    font-size: 19pt;
+    margin: 103px;
+}
